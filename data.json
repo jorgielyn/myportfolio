@@ -1,0 +1,64 @@
+
+{
+    "projects": [
+      {
+        "id": 0,
+        "project_name": "Heroku Chat",
+        "description": "An app that is like a messenger which enable users to communicate either private or group message",
+        "technologies": ["Sockert IO","jQuery","HTML","Boostrap CSS","Node js"],
+        "live_link": "https://heroku-chat-by-jorge.herokuapp.com/",
+        "github_link": "https://github.com/jorgielyn/heroku-chat",
+        "image_urls": ["image1_img1.png", "image1_img2.jpg"]
+    },
+
+    {
+        "id": 1,
+        "project_name": "MQTT" ,
+        "description": "Enable to publish and subscribe within a topic",
+        "technologies": ["Sockert IO","jQuery","HTML","Boostrap CSS","Node js","MQTT"],
+        "live_link": "https://heroku-mqtt-by-jorgelyn-iran.herokuapp.com",
+        "github_link": "",
+        "image_urls": ["image2_img1.png", "image2_img2.png"]
+    },
+
+    {
+        "id": 2,
+        "project_name": "Medicine App",
+        "description": "A pharmacy app that gives information and enable users to order medicine through an app",
+        "technologies": ["Java", "MySQL"],
+        "live_link": "",
+        "github_link": "https://github.com/jorgielyn/medicine",
+        "image_urls": ["image3_img1.jpg", "image3_img2.jpg"]
+    },
+
+    {
+        "id": 3,
+        "project_name": "SoShalon",
+        "description": "A hair and nail experts seekers.This enable experts and client find it each other to get the service they need",
+        "technologies":["Vue js","Node js","MongoDB","Boostrap CSS","Express js"],
+        "live_link": "",
+        "github_link": "https://github.com/DaunlessG1/Soshalon/tree/master/SoShalon",
+        "image_urls": ["image4_img1.jpg", "image4_img2.jpg"]
+    },
+
+    {
+        "id": 4,
+        "project_name": "Clock",
+        "description": "It simulate a Clock",
+        "technologies": ["Java"],
+        "live_link": "",
+        "github_link": "https://github.com/jorgielyn/bigdataChecked",
+        "image_urls": ["image5_img1.jpg", "image5_img2.jpg"]
+    },
+
+    {
+        "id": 5,
+        "project_name": "PN Counterpart Management System",
+        "description": "It's app aims to help the PN Admin office its storing, calculating and managing student counterpart",
+        "technologies": ["Laravel","MySQL"],
+        "live_link": "",
+        "github_link": "https://github.com/ramedju1003/tres_system/tree/master",
+        "image_urls": ["image6_img1.jpg", "image6_img2.jpg"]
+    }
+  ]
+}

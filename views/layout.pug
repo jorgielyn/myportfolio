@@ -1,0 +1,38 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title My Portfolio Site
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='stylesheet', href='/stylesheets/foundation.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
+      .grid-y.grid-padding-x(style='height: 100%;')
+        block sidebar
+          br
+          .cell.shrink
+            img.thumbnail(src='/images/mylove.jpg')
+          .cell.auto
+
+            h5 Jorgielyn Iran
+
+            p.text-light
+              | Hi I'm Jorgielyn and I'm a Full Stack Developer.
+
+            a(href='/about') Learn More →
+
+    .off-canvas-content(data-off-canvas-content='')
+      .title-bar.hide-for-large
+        .title-bar-left
+          button.menu-icon(type='button', data-toggle='my-info')
+
+          span.title-bar-title Jorgielyn Iran
+      block content
+
+  script(src='/javascripts/vendor/jquery.js')
+  script(src='/javascripts/vendor/what-input.js')
+  script(src='/javascripts/vendor/foundation.js')
+  script(src='/javascripts/scripts.js')
